@@ -98,7 +98,7 @@ public class HomeActivity extends BaseActivity implements CustomTitleView.Listen
     protected void initView() {
         mClock = Clock.create(mBinding.clock).format("MM/dd HH:mm:ss");
         mBinding.progressLayout.showProgress();
-        Updater.create().release().start(this);
+        // Updater.create().release().start(this); // 移除自动检查更新，只在点击版本号时检查
         mResult = Result.empty();
         Server.get().start();
         setRecyclerView();

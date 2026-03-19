@@ -76,7 +76,7 @@ public class HomeActivity extends BaseActivity implements NavigationBarView.OnIt
         com.fongmi.android.tv.utils.Notify.createChannel();
         
         orientation = getResources().getConfiguration().orientation;
-        Updater.create().release().start(this);
+        // Updater.create().release().start(this); // 移除自动检查更新，只在点击版本号时检查
         initFragment(savedInstanceState);
         Server.get().start();
         initConfig();
