@@ -2,7 +2,7 @@
   </h1>
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-3.1.3-blue.svg)
+![Version](https://img.shields.io/badge/version-3.1.5-blue.svg)
 ![Android](https://img.shields.io/badge/platform-Android-green.svg)
 ![License](https://img.shields.io/badge/license-GPL--3.0-orange.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
@@ -39,15 +39,16 @@
 
 ## 📥 下载安装
 
-### 最新版本: v3.1.3
+### 最新版本: v3.1.5
 
 | 平台 | ARM64-V8A | ARM V7A |
 |------|-----------|---------|
-| **📱 手机版** | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.3/mobile-arm64_v8a-v3.1.3.apk) | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.3/mobile-armeabi_v7a-v3.1.3.apk) |
-| **📱 平板版** | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.3/tablet-arm64_v8a-v3.1.3.apk) | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.3/tablet-armeabi_v7a-v3.1.3.apk) |
-| **📺 TV版** | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.3/leanback-arm64_v8a-v3.1.3.apk) | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.3/leanback-armeabi_v7a-v3.1.3.apk) |
+| **📱 手机版** | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.5/mobile-arm64_v8a-v3.1.5.apk) | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.5/mobile-armeabi_v7a-v3.1.5.apk) |
+| **📱 平板版** | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.5/tablet-arm64_v8a-v3.1.5.apk) | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.5/tablet-armeabi_v7a-v3.1.5.apk) |
+| **📺 TV版** | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.5/leanback-arm64_v8a-v3.1.5.apk) | [下载](https://github.com/Tosencen/XMBOX-Release/raw/main/apk/release/v3.1.5/leanback-armeabi_v7a-v3.1.5.apk) |
 
 ### 📁 版本历史
+- **v3.1.5**: [查看v3.1.5版本](https://github.com/Tosencen/XMBOX-Release/tree/main/apk/release/v3.1.5) - 新增壁纸功能、修复搜索功能、新增播放器、视频暂停时屏幕亮度调节、新增播放页面视频封面
 - **v3.1.3**: [查看v3.1.3版本](https://github.com/Tosencen/XMBOX-Release/tree/main/apk/release/v3.1.3) - 新增平板版本，优化演员列表和视频封面显示
 - **v3.1.1**: [查看v3.1.1版本](https://github.com/Tosencen/XMBOX-Release/tree/main/apk/release/v3.1.1) - 新增WebDAV同步功能和更新安装器
 - **v3.1.0**: [查看v3.1.0版本](https://github.com/Tosencen/XMBOX-Release/tree/main/apk/release/v3.1.0) - 定时器优化和画中画修复版本
@@ -138,6 +139,22 @@ XMBOX/
 - **数据库**: Room
 
 ## 📝 更新日志
+
+### v3.1.5 (2025-03-19)
+
+#### ✨ 新功能
+* **壁纸功能** - 新增壁纸设置，支持自定义应用背景
+* **视频封面** - 播放页面显示视频封面图
+* **新增播放器** - 集成新的视频播放器组件
+
+#### 🎨 UI优化
+* **视频暂停亮度调节** - 视频暂停时画面变暗，但保留中间三个控制按钮（上一首/播放/下一首）的正常亮度
+* **GitHub更新功能** - 修复检查更新无反应的问题，优化更新流程
+
+#### 🐛 修复
+* **搜索功能** - 修复并优化搜索体验
+* **WebDAV同步** - 支持坚果云、Nextcloud、ownCloud等主流WebDAV服务，新增自动同步功能
+* **编译问题** - 解决部分设备编译报错问题
 
 ### v3.1.3 (2025-01-07)
 
